@@ -1,0 +1,14 @@
+@mixin font-face($font-family, $url) {
+  @font-face {
+    font-family: "#{$font-family}";
+    src: url("../fonts/Fira_Sans/#{$url}.woff") format("woff");
+  }
+}
+
+@include font-face(FiraSans-Regular, FiraSans-Regular);
+@include font-face(FiraSans-ExtraBold, FiraSans-Regular);
+@include font-face(FiraSans-Light, FiraSans-Regular);
+@include font-face(FiraSans-Medium, FiraSans-Regular);
+@include font-face(FiraSans-Bold, FiraSans-Regular);
+
+$green: #4af6cd;
