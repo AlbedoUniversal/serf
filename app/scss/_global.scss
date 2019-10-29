@@ -1,11 +1,16 @@
 body {
   font-family: FiraSans-Bold;
+  font-weight: 400;
   font-size: 16px;
+  background-color: #171919;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 a {
   display: inline-block;
   text-decoration: none;
+  color: #fff;
 }
 ul,
 li {
@@ -17,8 +22,6 @@ li {
   font-size: 22px;
   line-height: 32px;
   letter-spacing: 7.3333333px;
-  text-transform: uppercase;
-  color: #ffffff;
   opacity: 0.5;
   padding-left: 103px;
   position: relative;
@@ -31,5 +34,22 @@ li {
     background-color: #fff;
     left: 0;
     top: 50%;
+  }
+}
+
+.title {
+  span {
+    font-weight: 800;
+    font-size: 200px;
+    color: rgba(#fff, 0.02);
+    position: relative;
+    h3 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      color: #fff;
+      font-size: 80px;
+    }
   }
 }

@@ -1,3 +1,4 @@
+// fonts
 @mixin font-face($font-family, $url) {
   @font-face {
     font-family: "#{$font-family}";
@@ -11,4 +12,12 @@
 @include font-face(FiraSans-Medium, FiraSans-Regular);
 @include font-face(FiraSans-Bold, FiraSans-Regular);
 
+// variable
 $green: #4af6cd;
+
+// animation
+@keyframes animdash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

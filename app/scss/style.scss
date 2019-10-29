@@ -11,8 +11,6 @@
   font-weight: 800;
   font-size: 200px;
   line-height: 156px;
-  text-transform: uppercase;
-  color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.07;
   max-width: 467px;
@@ -42,7 +40,6 @@
   border-right: 1px solid rgba(#fff, 0.25);
   height: 100vh;
   text-align: center;
-  color: #fff;
   .menu {
     padding-top: 40px;
     &__list {
@@ -54,9 +51,9 @@
           font-size: 12px;
           line-height: 14px;
           letter-spacing: 3px;
-          color: #ffffff;
           padding-top: 6px;
           margin-bottom: 20px;
+          text-transform: capitalize;
         }
       }
     }
@@ -87,6 +84,7 @@
     letter-spacing: 1.05px;
     position: relative;
     padding-left: 19px;
+    text-transform: capitalize;
     &::before {
       position: absolute;
       content: "";
@@ -114,8 +112,6 @@
   right: 80px;
   bottom: 116px;
   text-align: right;
-  color: #fff;
-  text-transform: uppercase;
 }
 .slider-item__info-suptitle {
   margin-bottom: 5px;
@@ -152,7 +148,6 @@
   bottom: 36px;
   max-width: 920px;
   width: 100%;
-  color: #fff;
   .slick-current {
     .dots-box {
       border-top: 4px solid $green;
@@ -176,6 +171,7 @@
   &__name {
     font-weight: 300;
     line-height: 19px;
+    text-transform: capitalize;
   }
 }
 
@@ -183,12 +179,6 @@
   stroke-dashoffset: 600;
   stroke-dasharray: 600;
   animation: animdash 5s infinite 6s;
-}
-
-@keyframes animdash {
-  to {
-    stroke-dashoffset: 0;
-  }
 }
 
 @import "media";
